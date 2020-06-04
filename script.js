@@ -4,7 +4,7 @@ function checkForm(){
   let last = document.getElementById('last').value;
   let email = document.getElementById('email').value;
   let pass = document.getElementById('pass').value;
-  let img = "url('../images/icon-error.svg')";
+  let img = "url('./images/icon-error.svg')";
   //first name
   if(first == ""){
     document.getElementById('first').style.border = ".5px solid red";
